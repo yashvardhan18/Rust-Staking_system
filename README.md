@@ -88,12 +88,12 @@ Notes:
  - Vault is the ATA of the Pool PDA for the mint.
  - Rewards formula: `pending = (elapsed * amount * reward_rate) / 1_000_000_000` using u128 math.
 
-## Account Structures (short)
+## Account Structures
 
 - StakingPool (112B): authority, vault, reward_rate (u64, 1e9 scale), min_lock_period (i64, s), total_staked, bump, reserved
 - UserStake (104B): owner, pool, amount, start_time, last_claim_time, rewards_claimed, reserved
 
-## Instructions (short)
+## Instructions
 
 - InitializePool(reward_rate, min_lock_period): create pool PDA + vault ATA; set config
 - UpdateConfig({reward_rate?, min_lock_period?}): authority only; optional updates; logs
@@ -111,7 +111,7 @@ Notes:
  - Double-stake attempts rejected.
  - Overflow-safe arithmetic for rewards (u128 with checks).
 
- ## Build & Deploy (local SBF, no Docker)
+ ## Build & Deploy
 
  ```bash
  cargo build-sbf --manifest-path program/Cargo.toml --sbf-out-dir dist
