@@ -1,0 +1,20 @@
+ {
+   "name": "solana-staking-client",
+   "version": "1.0.0",
+   "private": true,
+   "type": "commonjs",
+   "scripts": {
+     "start": "ts-node stake_client.ts",
+     "update-readme": "ts-node update_readme.ts"
+   },
+   "dependencies": {
+     "@solana/spl-token": "^0.4.7",
+     "@solana/web3.js": "^1.95.3",
+     "borsh": "^1.0.0"
+   },
+   "devDependencies": {
+     "ts-node": "^10.9.2",
+     "typescript": "^5.6.3"
+   }
+ }
+

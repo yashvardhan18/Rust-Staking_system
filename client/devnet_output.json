@@ -1,0 +1,15 @@
+{
+  "programId": "BC4G4EqWVGdBhy1nPLWBF9fdkMdgyygMDjAV9ATcTWVx",
+  "mint": "94VuetWSAZYwtcRzmkNGcTcRuWqjHfri9jEsrz1fNsjf",
+  "poolPda": "Dw3ZYT6Vcf6xV5HxkEGkcQMTG6jcnwQ1ADLCU1EzX46U",
+  "userStakePda": "8B4XnejpEUQUb2NrywZLVgTLv1nFQ2cLyHXpKavfRJrL",
+  "vaultAta": "5qzU2QzHrJxZKhj8h4RjXo3Ma4cUrxhbynvWdRR2cWGc",
+  "txs": {
+    "initializeMint": "5pBECJxJDtpSLVQuctBytDd3iNXrj73LFboM8SRt8EE6DZeKscUznX9XmZa8QQMiJ8ZKhcUvb35RP1YsM3eCKfjL",
+    "initializePool": "2KHqGcT8X5bZPNHUp5KpU4YMp3ekNYeJnZtUcdxqTPKVgdSci1iQiTXQJAvpAEKpRHVKkkf1rfQw7kERAocVz8Bz",
+    "initializeUser": "2bSqR8mdXkbaj95di9zPumfBVUK5U1RessEvvvFP1DAZnRqyWALH1UWenJ4ps89NFs5z7HAaPRoUaMprU7ku8Si4",
+    "stake": "2DfjnBfEDEVM6F1APov3VFgcaguyV1XsAaj1kWtePC7gqYFG2abamG3hiTAXQtdB2XMgmnR2g33UGhEjxtpxswjG",
+    "claim": "3cxnqBb7kdiJ8ur7gWtuwnwBpjNXSmn8aWiA84F9pZ1Vutdej9ncXNF6F1LtfvzhYitgJRVvyfhmviSvPNi9F8sn",
+    "unstake": "3mXHH2KHKX6TQNvwXHyiKes1rK9uBok5tqSViftb3BZU6s864SfiYKRd39K1EakqQhgCfc9957Sbgna7ERDquzT1"
+  }
+}

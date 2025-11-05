@@ -1,0 +1,20 @@
+ [package]
+ name = "staking_program"
+ version = "0.1.0"
+ edition = "2021"
+
+ [lib]
+ crate-type = ["cdylib", "lib"]
+ name = "staking_program"
+
+ [dependencies]
+ solana-program = { workspace = true }
+ borsh = { workspace = true, features = ["derive"] }
+ thiserror = { workspace = true }
+ spl-token = { workspace = true, features = ["no-entrypoint"] }
+ spl-associated-token-account = { workspace = true, features = ["no-entrypoint"] }
+ bytemuck = { workspace = true, features = ["derive"] }
+
+ [features]
+ no-entrypoint = []
+
