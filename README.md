@@ -166,20 +166,6 @@ Current Devnet details:
  - Reward accuracy depends on cluster time; very short intervals may be small.
  - Single active stake per user per pool (simple model).
 
-## ✅ Deliverables Verification
-
-| Deliverable | Status | Notes |
-|--------------|--------|-------|
-| Solana Program (native Rust, no Anchor) | ✅ | Implemented in `program/src/lib.rs` |
-| Configurable Reward Rate & Lock Period | ✅ | Controlled via `UpdateConfig` instruction |
-| PDA-based Accounts (Pool, User, Vault) | ✅ | Uses `[b"pool", mint]` and `[b"user", pool, owner]` seeds |
-| Rent Exemption Handling | ✅ | Verified via `Rent::get()?.minimum_balance()` |
-| Custom Errors & Comments | ✅ | In `Error` enum and inline docstrings |
-| Unit & Integration Tests | ✅ | In `tests/staking_tests.rs` |
-| Client Script (TypeScript) | ✅ | Executes stake, claim, unstake on Devnet |
-| Devnet Program ID | ✅ | `BC4G4EqWVGdBhy1nPLWBF9fdkMdgyygMDjAV9ATcTWVx` |
-| Example Transactions (3+) | ✅ | Stake: `2DfjnBfEDEVM6F1APov3VFgcaguyV1XsAaj1kWtePC7gqYFG2abamG3hiTAXQtdB2XMgmnR2g33UGhEjxtpxswjG` • Claim: `3cxnqBb7kdiJ8ur7gWtuwnwBpjNXSmn8aWiA84F9pZ1Vutdej9ncXNF6F1LtfvzhYitgJRVvyfhmviSvPNi9F8sn` • Unstake: `3mXHH2KHKX6TQNvwXHyiKes1rK9uBok5tqSViftb3BZU6s864SfiYKRd39K1EakqQhgCfc9957Sbgna7ERDquzT1` |
-| README with Architecture & Commands | ✅ | Completed |
 
 
 
